@@ -3,7 +3,7 @@ App de Streaming de vídeo estilo netlix
 
 **Objetivo**
 
-Fazer uma integração com API de videos(Com a intenção de ver videos relacionado a área de TI)
+Fazer uma integração com API de videos(Com a intenção de ver videos relacionado a área de TI).
 
 **Justificativa**
 
