@@ -4,8 +4,8 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 const AppTab = createBottomTabNavigator();
 
-import Courses from "./pages/Courses";
-import Subjects from "./pages/Subjects";
+import Courses from "./pages/Cursos";
+import Subjects from "./pages/Disciplinas";
 
 export default function Routes() {
   return (
