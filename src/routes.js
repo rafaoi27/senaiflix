@@ -1,16 +1,19 @@
-import React from 'react';
-import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
-import Cursos from './pages/cursos';
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-const AppStack = createStackNavigator();
+const AppTab = createBottomTabNavigator();
 
-export default function Routes(){
-    return(
-        <NavigationContainer>
-            <AppStack.Navigator screenOptions = {{headerShown: false}}>
-                <AppStack.Screen name="cursos" component={Cursos}/>
-            </AppStack.Navigator>
-        </NavigationContainer>
-    );
+import Courses from "./pages/Courses";
+import Subjects from "./pages/Subjects";
+
+export default function Routes() {
+  return (
+    <NavigationContainer>
+      <AppTab.Navigator screenOptions={{ headerShown: false }}>
+        <AppTab.Screen name="Courses" component={Courses} />
+        <AppTab.Screen name="Subjects" component={Subjects} />
+      </AppTab.Navigator>
+    </NavigationContainer>
+  );
 }

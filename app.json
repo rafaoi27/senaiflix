@@ -1,31 +1,25 @@
 {
   "expo": {
-    "name": "Senaiflix",
-    "slug": "senaiflix",
-    "platforms": [
-      "ios",
-      "android"
-    ],
+    "name": "Dev Flix",
+    "slug": "devflix",
+    "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#000000"
+      "backgroundColor": "#333333"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
-
     "android": {
-      "package": "com.thecoders.senaiflix"
+      "package": "com.senai.devflix"
     }
   }
 }
