@@ -16,7 +16,7 @@ export default function Courses({ navigation }) {
         <Text style={Style.coursesName}>Desenvolvimento de Sistemas</Text>
         <TouchableOpacity
           style={Style.coursesSubjects}
-          onPress={() => navigation.navigate("Subjects")}
+          onPress={() => navigation.navigate("Disciplinas")}
         >
           <Text style={Style.coursesSubjectsText}>
             Ver disciplinas do curso
