@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, Image } from "react-native";
 import Style from "./style";
 import logoImg from "../../assets/logo.png";
 
-export default function Courses({ navigation }) {
+export default function Cursos({ navigation }) {
   return (
     <View style={Style.container}>
       <View style={Style.header}>
@@ -22,6 +22,8 @@ export default function Courses({ navigation }) {
             Ver disciplinas do curso
           </Text>
         </TouchableOpacity>
+        
+
       </View>
     </View>
   );
