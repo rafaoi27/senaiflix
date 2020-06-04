@@ -30,6 +30,8 @@ Foto | Nome | GitHub | Likedin | E-mail
 - Expo
 - Axios
 
+![arquitetura](Doc/DevFlix-Arquiterua.png)
+
 **Comandos**
 
 - Instalar o Expo-cli:
