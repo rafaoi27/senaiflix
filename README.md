@@ -30,7 +30,7 @@ Foto | Nome | GitHub | Likedin | E-mail
 - Expo
 - Axios
 
-![arquitetura](Doc/DevFlix-Arquiterua.png)
+![arquitetura](Doc/DevFlix-Arquitetura.png)
 
 **Comandos**
 
