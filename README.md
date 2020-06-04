@@ -32,6 +32,8 @@ Foto | Nome | GitHub | Likedin | E-mail
 
 ![arquitetura](Doc/DevFlix-Arquitetura.png)
 
+Utilizando a API do youtube atraves da conexão com o axios, fizemos um app na linguagem React Native com o objetivo de mostrar playlist de aulas, para os alunos do Senai.
+
 **Comandos**
 
 - Instalar o Expo-cli:
