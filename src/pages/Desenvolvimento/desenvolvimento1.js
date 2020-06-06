@@ -1,12 +1,12 @@
 import React from "react";
-import { View, Text, TouchableOpacity, Image } from "react-native";
+import { View, Text, TouchableOpacity, Image, SafeAreaView } from "react-native";
 import logoImg from "../../assets/logo.png";
 import Style from "./style";
 import { WebView } from 'react-native-webview';
 
 export default function Logica({ navigation }) {
   return (
-    <View style={Style.container}>
+    <SafeAreaView style={Style.container}>
       <View style={Style.header}>
         <View style={Style.header}>
           <Image source={logoImg} />
@@ -15,11 +15,11 @@ export default function Logica({ navigation }) {
 
          <View style={Style.body}>
             <View style={Style.player}>
-                <WebView source={{ uri: 'https://www.youtube.com/embed/6vE0oFFSE7c'}} allowsFullscreenVideo={true} />
+                <WebView source={{ uri: 'https://www.youtube.com/watch?v=dojQWX0k8Qw'}} allowsFullscreenVideo={true} />
             </View>            
         </View>
 
-      </View>
-    </View>
+        </View>
+    </SafeAreaView>
   );
 }  

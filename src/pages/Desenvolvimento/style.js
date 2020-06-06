@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native";
 import Constants from "expo-constants";
+import { ScaleFromCenterAndroid } from "react-navigation-stack/lib/typescript/src/vendor/TransitionConfigs/TransitionPresets";
 
 export default StyleSheet.create({
   container: {
@@ -21,8 +22,9 @@ export default StyleSheet.create({
   },
 
     player: {
-        height: '100%',
-        width: '100%',
+        height: 400,
+        width: '110%',
+        
         
     },
     body: {
@@ -33,5 +35,7 @@ export default StyleSheet.create({
         marginTop: 150,
         marginLeft: -500,
            
-    }
+    },
+      
+    
 });
