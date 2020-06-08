@@ -18,7 +18,7 @@
 
 Foto | Nome | GitHub | Likedin | E-mail
 ---- | ---- | ------ | ------- | ------
-<img src="" width="100px"> | Rafael Vasques Freitas | [rafaoi27](https://github.com/rafaoi27) | [Linkedin](https://www.linkedin.com/in/rafael-vasques-068339195/) | rafaoi27@gmail.com
+<img src="https://avatars2.githubusercontent.com/u/60783491?s=460&u=80348c4fcf0246095cbe3dba420931b460dd5d05&v=4" width="100px"> | Rafael Vasques Freitas | [rafaoi27](https://github.com/rafaoi27) | [Linkedin](https://www.linkedin.com/in/rafael-vasques-068339195/) | rafaoi27@gmail.com
 
 **Tecnologias**
 
